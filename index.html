@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasank - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <nav>
+            <div class="nav-brand">Sasank</div>
+            <div class="nav-links">
+                <button class="nav-link active" data-page="home">Home</button>
+                <button class="nav-link" data-page="projects">Projects</button>
+                <button class="nav-link" data-page="skills">Skills</button>
+                <button class="nav-link" data-page="contact">Contact</button>
+            </div>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch" class="theme-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="profile-image">
+                    <img src="https://via.placeholder.com/200" alt="Sasank's Profile Picture">
+                </div>
+                <div class="hero-content">
+                    <h1>Hi, I'm Sasank</h1>
+                    <p class="intro-text">
+                        An aspiring software engineer passionate about building impactful projects. 
+                        I enjoy working with web technologies, cloud computing, and AI-driven applications. 
+                        I'm actively exploring full-stack development, open-source, and cutting-edge innovations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="page">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Sentiment Analysis Web App</h3>
+                    <p>A JS-based app using Sentiment.js to analyze user input in real time.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>Sentiment.js</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>AquaAdvisor</h3>
+                    <p>An IoT smart irrigation advisor for farmers.</p>
+                    <div class="project-tags">
+                        <span>IoT</span>
+                        <span>Smart Agriculture</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>AgriPredict</h3>
+                    <p>AI-based crop predictor and farm assistant using ML & image recognition.</p>
+                    <div class="project-tags">
+                        <span>AI/ML</span>
+                        <span>Image Recognition</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Course Enrollment System</h3>
+                    <p>Spring + MySQL full-stack course manager for admins and students.</p>
+                    <div class="project-tags">
+                        <span>Spring</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Stock Tracker Website</h3>
+                    <p>Tracks Indian stock market data and signals using CSV & AI.</p>
+                    <div class="project-tags">
+                        <span>Data Analysis</span>
+                        <span>AI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Stock Prediction AI App</h3>
+                    <p>Real-time prediction tool with portfolio, charts, and watchlist.</p>
+                    <div class="project-tags">
+                        <span>AI</span>
+                        <span>Real-time</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Social Media Website (MERN)</h3>
+                    <p>A fully featured social platform built using MongoDB, Express, React, Node.js.</p>
+                    <div class="project-tags">
+                        <span>MERN</span>
+                        <span>Full Stack</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">Java</span>
+                        <span class="skill-badge">HTML</span>
+                        <span class="skill-badge">CSS</span>
+                        <span class="skill-badge">SQL</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Web & Frameworks</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Express.js</span>
+                        <span class="skill-badge">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">Cursor</span>
+                        <span class="skill-badge">GitHub Pages</span>
+                        <span class="skill-badge">VS Code</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>AI/ML & Other</h3>
+                    <div class="skills-grid">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Sentiment.js</span>
+                        <span class="skill-badge">Data Analysis</span>
+                        <span class="skill-badge">IoT Concepts</span>
+                        <span class="skill-badge">Cloud Computing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <span>Sasank Anatha Pavan Pulipati</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91-8331829620</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sasank162005@gmail.com">sasank162005@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://linkedin.com/in/sasank-anatha-pavan-pulipati-80702a26a/" target="_blank">linkedin.com/in/sasank-anatha-pavan-pulipati-80702a26a/</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Sasankpulipati" target="_blank">github.com/Sasankpulipati</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
